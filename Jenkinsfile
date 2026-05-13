@@ -13,7 +13,7 @@ pipeline {
         stage("Clone"){
             steps{
                 script{
-                 clone("https://github.com/narolapractice/docker-to-do-app-practice-project-1.git", "master")   
+                 clone("https://github.com/adnan-shaikh09/todo-app-jenkins-ec2.git", "master")   
                 }
             }
         }
