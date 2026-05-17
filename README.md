@@ -10,29 +10,29 @@ The pipeline follows a real-world DevOps production-style architecture where eve
 
 ## 🏗️ Architecture
 
-- GitHub Repository
-        ↓
-- GitHub Webhook Trigger
-        ↓
-- Jenkins Master (AWS EC2)
-        ↓
-- Jenkins Agent / Worker Node (AWS EC2)
-        ↓
-- Jenkins Shared Library Loaded
-        ↓
-- Clone Source Code from GitHub
-        ↓
-- Build Docker Image (Django App)
-        ↓
-- Push Image to Docker Hub
-        ↓
-- Docker Compose Deployment
-        ↓
-- Nginx Reverse Proxy (Port 80)
-        ↓
-- Gunicorn + Django Application (Port 8000)
-        ↓
-- MySQL Database (Persistent Volume)
+        GitHub Repository
+                ↓
+        GitHub Webhook Trigger
+                ↓
+        Jenkins Master (AWS EC2)
+                ↓
+        Jenkins Agent / Worker Node (AWS EC2)
+                ↓
+        Jenkins Shared Library Loaded
+                ↓
+        Clone Source Code from GitHub
+                ↓
+        Build Docker Image (Django App)
+                ↓
+        Push Image to Docker Hub
+                ↓
+        Docker Compose Deployment
+                ↓
+        Nginx Reverse Proxy (Port 80)
+                ↓
+        Gunicorn + Django Application (Port 8000)
+                ↓
+        MySQL Database (Persistent Volume)
 
 ---
 
