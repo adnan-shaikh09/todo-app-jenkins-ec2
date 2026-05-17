@@ -1,4 +1,4 @@
-# 🚀 CI/CD Pipeline for Django To-do Application using Jenkins, Docker, AWS EC2 & Jenkins Shared Libraries
+# 🚀 CI/CD Pipeline for Django Application using Jenkins, Docker, AWS EC2 & Jenkins Shared Libraries
 
 ## 📌 Project Overview
 
@@ -86,13 +86,13 @@ GitHub Webhook automatically triggers Jenkins pipeline.
 3. Pipeline Execution
 Jenkins Master assigns job to Worker Node.
 
-Shared Library loaded:
-@Library("Shared") _
-
-Functions:
-- hello()
-- clone(repo, branch)
-- push_to_dockerhub(image, tag, credentials)
+        Shared Library loaded:
+        @Library("Shared") _
+        
+        Functions:
+        - hello()
+        - clone(repo, branch)
+        - push_to_dockerhub(image, tag, credentials)
 
 4. Code Checkout
 Worker node clones repository.
