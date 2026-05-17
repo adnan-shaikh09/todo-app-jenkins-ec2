@@ -1,6 +1,6 @@
 # 🚀 CI/CD Pipeline for Django Application using Jenkins, Docker, AWS EC2 & Jenkins Shared Libraries
 
-## 🏗️ Architecture & Workflow
+## 🏗️ Architecture
 
 <img width="1536" height="1024" alt="abc" src="https://github.com/user-attachments/assets/75e50d94-e789-4945-8d07-d50897c50a13" />
 
@@ -13,7 +13,7 @@ The pipeline follows a real-world DevOps production-style architecture where eve
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Workflow
 
         GitHub Repository
                 ↓
